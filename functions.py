@@ -1,6 +1,8 @@
 import random
+import os
 
-WORDFILE = "dictionary/countries.txt"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+WORDFILE = os.path.join(BASE_DIR, 'dictionary', 'countries.txt')
 
 def get_random_word():
     """Get a random word from the wordlist using no extra memory."""
