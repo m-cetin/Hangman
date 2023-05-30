@@ -85,4 +85,4 @@ def game_won_landing():
 	return render_template('game_won.html')
 
 if __name__ == '__main__': 
-    app.run() 
+    app.run(host='0.0.0.0', port=9092) 
