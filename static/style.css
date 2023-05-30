@@ -1,0 +1,57 @@
+body {
+  background-color: #000; /* Black background color */
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff; /* White font color */
+  font-size: 24px; /* Increased font size */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 48px; /* Increased font size */
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+
+.game-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  background-color: #333; /* Dark gray background color */
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff; /* White background color */
+  color: #000; /* Black font color */
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 24px; /* Increased font size */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #000; /* Black background color on hover */
+  color: #fff; /* White font color on hover */
+}
+
